@@ -18,16 +18,21 @@ html {
 }
 
 body {
-	background: $white;
+    text-color: white;
+}
+
+body {
+    background-image: url("https://www.telegraph.co.uk/content/dam/news/2017/10/16/TELEMMGLPICT000143765177-xlarge.jpeg");
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
-  width: 100%;
+  width: 200%;
+	 background: radial-gradient(circle, red, yellow, green); /* Standard syntax (must be last) */
+	border-radius: 50px;	
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,27 +50,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
-  a {
+  font-size: 40px;
+color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;  a {
     color: inherit;
+	   
   }
 }
 
 h2 {
-  font-size: 24px;
-}
+  font-size: 40px;
+color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
 
 h3 {
-  font-size: 20px;
-}
+  font-size: 40px;
+color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
 
 h4 {
-  font-size: 18px;
+  font-size: 40px;
   color: $gray;
 }
 
 p {
   margin: 15px 0;
+	p.italic {
+    font-style: italic;
+}
 }
 
 a {
@@ -108,6 +120,29 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid white;
+background-color:#984b43;
+
+}
+
+td {
+vertical-align: middle; 
+padding: 10px;
+} 
+
+th {
+color: white;
+background: #233237;
+height:50px;
+vertical-align: middle;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -238,7 +273,8 @@ nav {
 }
 
 //
-// .main
+
+	// .main
 //
 
 .posts > .post {
@@ -272,13 +308,15 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+	position: fixed;
+  margin-top: 50px;position: fixed;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
 }
 
 footer {
+	position: fixed;
   padding: 20px 0;
   text-align: center;
 }
