@@ -1,5 +1,5 @@
 ---
-title: Continuing Python
+title: Progressing in Python
 layout: post
 author: hin-yi.wong
 permalink: /continuing-python/
@@ -9,9 +9,9 @@ published: true
 <table>
   <tr>
     <td>Title</td>
-    <td>Continuing Python</td>
+    <td>Progressing in Python</td>
     <td>Date</td>
-    <td>2-5-2018</td>
+    <td>9-5-2018</td>
   </tr>
 </table>
 
@@ -23,11 +23,11 @@ published: true
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>Finish part  3 and 4</td>
+    <td>Finish part  5 and 6</td>
   </tr>
   <tr>
     <td>Did I reach my target? </td>
-    <td>Yes. I completed all of part 4 and am now in 5</td>
+    <td>No. There Was a glitch and I lost some progress and it's back to part 4. Unlucky</td>
   </tr>
 </table>
 
@@ -62,7 +62,7 @@ published: true
     <td></td>
   </tr>
   <tr>
-    <td>I could have noticed my mistakes and mess ups quicker like last time but this time I could also rely less on the soulutions tab that the codeacedemy provides.</td>
+    <td>I did more by myself but I could have did a better job in saving my progress because I lost a lot of progress. Although technically it was a glitch it would have helped if I have saved progress</td>
     <td></td>
   </tr>
   <tr>
